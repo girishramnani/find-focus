@@ -1,0 +1,20 @@
+{
+    "name": "find-focus",
+    "version": "1.0.0",
+    "description": "A Slack app that allows users to schedule profile status updates to focus better",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "dependencies": {
+      "@slack/web-api": "^6.4.0",
+      "@slack/interactive-messages": "^3.3.0",
+      "body-parser": "^1.19.0",
+      "cron": "^1.8.2",
+      "dotenv": "^10.0.0",
+      "express": "^4.17.2"
+    },
+    "engines": {
+      "node": ">=14.0.0"
+    }
+}

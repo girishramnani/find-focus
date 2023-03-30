@@ -1,0 +1,21 @@
+{
+    "name": "find-focus",
+    "version": 1,
+    "builds": [
+      {
+        "src": "index.js",
+        "use": "@vercel/node"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "/index.js"
+      }
+    ],
+    "env": {
+      "SLACK_APP_TOKEN": "@slack-app-token",
+      "SLACK_BOT_TOKEN": "@slack-bot-token"
+    }
+  }
+  
