@@ -10,9 +10,12 @@ To use this app, you'll need to create a new Slack app and bot. You can follow t
 
 Once you have created your Slack app and bot, you'll need to set the following environment variables:
 
+```
 SLACK_APP_TOKEN: The app token for your Slack app
 SLACK_BOT_TOKEN: The bot token for your Slack bot
 SCHEDULE: The schedule on which to update your Slack status (in Cron format)
+
+```
 
 You can set these environment variables in a .env file in the root directory of your project:
 
